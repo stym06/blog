@@ -1,0 +1,4 @@
+[submodule "stym06blog/public"]
+	path = stym06blog/public
+	url = git@github.com:stym06/stym06.github.io.git
+	branch = main
