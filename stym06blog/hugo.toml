@@ -4,6 +4,11 @@ title = 'Blog by Satyam'
 theme = 'PaperMod'
 enableEmoji=true
 
+[params]
+ShowReadingTime=true
+ShowBreadCrumbs=true
+comments=true
+
 [params.homeInfoParams]
 Title = "Hi there :wave:"
 Content = "Welcome to my little corner on the internet :tokyo_tower:"
@@ -15,3 +20,23 @@ url = "https://linkedin.com/in/stym06"
 [[params.socialIcons]]
 name = "X"
 url = "https://x.com/stym06"
+
+[outputs]
+home = [ "HTML", "RSS", "JSON" ]
+
+ShowToc = true
+TocOpen = true
+
+[[menu.main]]
+identifier = "about"
+name = "About"
+url = "/about/"
+weight = 10
+
+[[menu.main]]
+identifier = "search"
+name = "Search"
+url = "/search/"
+weight = 20
+
+
